@@ -14,8 +14,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/VoodooGames/Box2D.git", :branch => "2.3.1" }
   s.source_files = "Box2D/Box2D/**/*.{h,cpp}"
 
-  s.ios.deployment_target = "5.0"
-  s.osx.deployment_target = "10.7"
+  s.platform = :ios, "6.0"
 
   s.header_mappings_dir = "Box2D"
   s.requires_arc = false
