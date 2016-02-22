@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "Box2D"
-  s.version      = "2.3.1"
+  s.version      = "2.3.0"
 
   s.summary      = "Box2D is an open source C++ engine for simulating rigid bodies in 2D."
   s.description  = <<-DESC
